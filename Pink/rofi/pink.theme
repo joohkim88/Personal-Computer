@@ -1,0 +1,15 @@
+! ------------------------------------------------------------------------------
+! ROFI Color theme
+! User: joo
+! Copyright: Joo Kim
+! ------------------------------------------------------------------------------
+! "Color scheme for normal row" Set from: File
+rofi.color-normal:                   argb:0000000, #dbdfbc, argb:00000000, #c83fba, #02143f
+! "Color scheme for urgent row" Set from: File
+rofi.color-urgent:                   argb:0000000, #ff81ff, argb:00000000, #ff817f, #02143f
+! "Color scheme for active row" Set from: File
+rofi.color-active:                   argb:0000000, #8ac4ff, argb:00000000, #8ac4ff, #02143f
+! "Color scheme window" Set from: File
+rofi.color-window:                   argb:dd000021, #af23ff, #af23ff
+! "Separator style (none, dash, solid)" Set from: XResources
+rofi.separator-style:                solid
