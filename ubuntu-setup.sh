@@ -19,3 +19,6 @@ apt update ;
 apt dist-upgrade -y ;
 apt install -y git vim fish evolution tlp guake gnome-sushi nextcloud-client seadrive-gui papirus-icon-theme arc-theme redshift fcitx fcitx-hangul sublime-text ;
 apt autoremove -y ;
+
+usermod -s /usr/bin/fish joo ;
+usermod -s /usr/bin/fish root ;
