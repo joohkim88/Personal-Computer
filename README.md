@@ -1,3 +1,1 @@
-## i3wm
-
-My config files for Manjaro i3 with polybar
+My config files to desktop linux machines.
