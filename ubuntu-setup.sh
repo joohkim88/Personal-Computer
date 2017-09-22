@@ -17,7 +17,7 @@ add-apt-repository ppa:papirus/papirus ;
 
 apt update ;
 apt dist-upgrade -y ;
-apt install -y git vim fish evolution tlp guake gnome-sushi nextcloud-client seadrive-gui papirus-icon-theme arc-theme redshift fcitx fcitx-hangul sublime-text ;
+apt install -y git vim fish evolution tlp guake gnome-sushi nextcloud-client seadrive-gui papirus-icon-theme arc-theme redshift fcitx fcitx-hangul sublime-text vlc mpv network-manager-openvpn-gnome unity-tweak-tool ;
 apt autoremove -y ;
 
 usermod -s /usr/bin/fish joo ;
