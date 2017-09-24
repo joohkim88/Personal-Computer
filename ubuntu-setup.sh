@@ -18,7 +18,11 @@ add-apt-repository ppa:papirus/papirus ;
 apt update ;
 apt dist-upgrade -y ;
 apt install -y git vim fish evolution tlp guake gnome-sushi nextcloud-client seadrive-gui papirus-icon-theme arc-theme redshift fcitx fcitx-hangul sublime-text vlc mpv network-manager-openvpn-gnome unity-tweak-tool ;
+apt purge -y thunderbird ;
 apt autoremove -y ;
 
 usermod -s /usr/bin/fish joo ;
 usermod -s /usr/bin/fish root ;
+
+systemctl start tlp ;
+systemctl enable tlp ;
