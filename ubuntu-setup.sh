@@ -5,6 +5,9 @@
 apt-key adv --keyserver hkp://keyserver.ubuntu.com:80 --recv-keys 8756C4F765C9AC3CB6B85D62379CE192D401AB61 ;
 echo deb http://deb.seadrive.org zesty main | tee /etc/apt/sources.list.d/seafile.list ;
 
+# Seafile
+add-apt-repository ppa:seafile/seafile-client ;
+
 # Nextcloud
 add-apt-repository ppa:nextcloud-devs/client ;
 
@@ -17,7 +20,7 @@ add-apt-repository ppa:papirus/papirus ;
 
 apt update ;
 apt dist-upgrade -y ;
-apt install -y git vim fish evolution tlp guake gnome-sushi nextcloud-client seadrive-gui papirus-icon-theme arc-theme redshift fcitx fcitx-hangul sublime-text vlc mpv network-manager-openvpn-gnome unity-tweak-tool ;
+apt install -y git vim fish evolution tlp guake gnome-sushi nextcloud-client seafile-gui papirus-icon-theme arc-theme fcitx fcitx-hangul sublime-text vlc mpv network-manager-openvpn-gnome gnome-tweak-tool ;
 apt purge -y thunderbird ;
 apt autoremove -y ;
 
