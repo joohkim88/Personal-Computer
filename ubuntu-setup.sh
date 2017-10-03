@@ -19,7 +19,7 @@ echo "deb https://download.sublimetext.com/ apt/stable/" | tee /etc/apt/sources.
 add-apt-repository ppa:papirus/papirus ;
 
 # Arc Theme
-add-apt-repository ppa:noobslab/themes
+add-apt-repository ppa:noobslab/themes ;
 
 apt update ;
 apt dist-upgrade -y ;
