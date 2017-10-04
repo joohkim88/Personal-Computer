@@ -26,7 +26,7 @@ add-apt-repository ppa:papirus/papirus ;
 
 apt update ;
 apt dist-upgrade -y ;
-apt install -y git vim fish evolution tlp guake gnome-sushi nextcloud-client seafile-gui redshift papirus-icon-theme arc-theme fcitx fcitx-hangul sublime-text vlc mpv network-manager-openvpn-gnome gnome-tweak-tool steam ;
+apt install -y git vim fish evolution tlp guake gnome-sushi nextcloud-client seafile-gui papirus-icon-theme arc-theme fcitx fcitx-hangul sublime-text vlc mpv network-manager-openvpn-gnome gnome-tweak-tool steam ;
 apt purge -y thunderbird ;
 apt autoremove -y ;
 
