@@ -26,7 +26,7 @@ add-apt-repository ppa:ravefinity-project/ppa ;
 
 apt update ;
 apt dist-upgrade -y ;
-apt install -y git vim fish evolution tlp guake gnome-sushi nextcloud-client seafile-gui redshift papirus-icon-theme vivacious-unity-gtk-dark vivacious-unity-gtk-light arc-theme fcitx fcitx-hangul sublime-text vlc mpv network-manager-openvpn-gnome unity-tweak-tool steam ;
+apt install -y git vim fish evolution tlp guake gnome-sushi nextcloud-client seafile-gui redshift papirus-icon-theme vivacious-unity-gtk-dark vivacious-colors vivacious-unity-gtk-light arc-theme fcitx fcitx-hangul sublime-text vlc mpv network-manager-openvpn-gnome unity-tweak-tool steam ;
 apt purge -y thunderbird ;
 apt autoremove -y ;
 
