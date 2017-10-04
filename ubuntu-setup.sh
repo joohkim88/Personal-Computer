@@ -3,7 +3,7 @@
 
 # Seadrive
 apt-key adv --keyserver hkp://keyserver.ubuntu.com:80 --recv-keys 8756C4F765C9AC3CB6B85D62379CE192D401AB61 ;
-echo deb http://deb.seadrive.org xenial main | tee /etc/apt/sources.list.d/seafile.list ;
+echo deb http://deb.seadrive.org artful main | tee /etc/apt/sources.list.d/seafile.list ;
 
 # Seafile
 add-apt-repository ppa:seafile/seafile-client ;
@@ -19,14 +19,14 @@ echo "deb https://download.sublimetext.com/ apt/stable/" | tee /etc/apt/sources.
 add-apt-repository ppa:papirus/papirus ;
 
 # Arc Theme
-add-apt-repository ppa:noobslab/themes ;
+# add-apt-repository ppa:noobslab/themes ;
 
 # Vivacious Theme
-add-apt-repository ppa:ravefinity-project/ppa ;
+# add-apt-repository ppa:ravefinity-project/ppa ;
 
 apt update ;
 apt dist-upgrade -y ;
-apt install -y git vim fish evolution tlp guake gnome-sushi nextcloud-client seafile-gui redshift papirus-icon-theme vivacious-unity-gtk-dark vivacious-unity-gtk-light arc-theme fcitx fcitx-hangul sublime-text vlc mpv network-manager-openvpn-gnome unity-tweak-tool steam ;
+apt install -y git vim fish evolution tlp guake gnome-sushi nextcloud-client seafile-gui redshift papirus-icon-theme arc-theme fcitx fcitx-hangul sublime-text vlc mpv network-manager-openvpn-gnome gnome-tweak-tool steam ;
 apt purge -y thunderbird ;
 apt autoremove -y ;
 
