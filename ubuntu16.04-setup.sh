@@ -3,11 +3,11 @@
 # Ubuntu 16.04 with Unity
 
 # Seadrive
-# apt-key adv --keyserver hkp://keyserver.ubuntu.com:80 --recv-keys 8756C4F765C9AC3CB6B85D62379CE192D401AB61 ;
-# echo deb http://deb.seadrive.org artful main | tee /etc/apt/sources.list.d/seafile.list ;
+apt-key adv --keyserver hkp://keyserver.ubuntu.com:80 --recv-keys 8756C4F765C9AC3CB6B85D62379CE192D401AB61 ;
+echo deb http://deb.seadrive.org artful main | tee /etc/apt/sources.list.d/seafile.list ;
 
 # Seafile
-add-apt-repository ppa:seafile/seafile-client ;
+# add-apt-repository ppa:seafile/seafile-client ;
 
 # Nextcloud
 add-apt-repository ppa:nextcloud-devs/client ;
