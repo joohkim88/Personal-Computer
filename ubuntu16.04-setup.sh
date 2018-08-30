@@ -2,13 +2,6 @@
 # To be run by superuser
 # Ubuntu 16.04 with Unity
 
-# Seadrive
-apt-key adv --keyserver hkp://keyserver.ubuntu.com:80 --recv-keys 8756C4F765C9AC3CB6B85D62379CE192D401AB61 ;
-echo deb http://deb.seadrive.org artful main | tee /etc/apt/sources.list.d/seafile.list ;
-
-# Seafile
-# add-apt-repository ppa:seafile/seafile-client ;
-
 # Nextcloud
 add-apt-repository ppa:nextcloud-devs/client ;
 
@@ -20,15 +13,12 @@ echo "deb https://download.sublimetext.com/ apt/stable/" | tee /etc/apt/sources.
 add-apt-repository ppa:papirus/papirus ;
 
 # Arc Theme
-# add-apt-repository ppa:noobslab/themes ;
-
-# Vivacious Theme
-# add-apt-repository ppa:ravefinity-project/ppa ;
+add-apt-repository ppa:noobslab/themes ;
 
 apt update ;
 apt dist-upgrade -y ;
-apt install -y git vim fish evolution tlp guake gnome-sushi nextcloud-client seadrive-gui papirus-icon-theme fcitx fcitx-hangul sublime-text vlc network-manager-openvpn-gnome unity-tweak-tool steam ;
-apt purge -y thunderbird ;
+apt install -y git vim fish evolution tlp guake gnome-sushi nextcloud-client arc-theme papirus-icon-theme fcitx fcitx-hangul sublime-text vlc network-manager-openvpn-gnome unity-tweak-tool steam chromium-browser;
+apt purge -y firefox thunderbird ;
 apt autoremove -y ;
 
 usermod -s /usr/bin/fish joo ;
